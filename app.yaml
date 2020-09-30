@@ -1,0 +1,23 @@
+mode: debug
+port: 8000
+read_time_out: 10
+write_time_out: 10
+
+# database
+db:
+    db_type: mysql
+    db_user: root
+    db_password: 123456
+    db_host: 127.0.0.1
+    db_port: 3306
+    db_name: awesome_nlp
+
+# redis
+redis:
+    redis_db: 0
+    redis_host: 127.0.0.1:6379
+    redis_password:
+    redis_max_idle: 30
+    redis_max_active: 30
+    redis_idle_timeout: 200
+    redis_prefix: sso_
